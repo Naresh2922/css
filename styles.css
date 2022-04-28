@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  text-align: center;
   /***********************************h1*****************************/
 }
 
@@ -7,38 +8,34 @@ h1 {
   margin-top: 0;
   margin-bottom: 0;
   display: inline-block;
-  color: white;
+  color: #22577E;
   font-family: 'Sacramento', cursive;
   font-size: 350%;
   position: absolute;
-  left: 127.9875px;
-  top: 370px;
+  top: 40%;
+  left: 45%;
 }
 
 /***********************************p********************************/
 p {
   margin-top: 0;
   margin-bottom: 0;
-  color: white;
+  color: #22577E;
+  display: inline-block;
   font-family: 'Merriweather', serif;
-  text-align: center;
   position: absolute;
-  left: 223.09px;
-  top: 500px
+  top: 50%;
+  left: 45%;
+}
+.sky{
+  display: inline-block;
+  width: 100%;
+
 }
 
 /**************************topcontainer***************************/
 .top-container {
-  background-color: #5534A5;
-}
-
-/****************************moon*********************************/
-.moon {
-  width: 509.600px;
-  height: 720.825px;
-  position: absolute;
-  left: 500px;
-  top: 0;
+  background-color: #85F4FF;
 }
 
 /*********************middlecontainer*******************************/
@@ -57,7 +54,7 @@ p {
 
 /***********************button**************************************/
 .button {
-  background-color: #151D3B;
+  background-color: #1572A1;
   border: none;
   color: white;
   padding: 5px 10px;
@@ -72,7 +69,7 @@ p {
 /********************topblock****************************/
 .topblock {
   display: inline-block;
-  background-color: #151D3B;
+  background-color: #1572A1;
   height: 69.025px;
   width: 100%;
   position: fixed;
@@ -107,4 +104,10 @@ p {
   position: fixed;
   top: 0;
   right: 55px;
+}
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
 }
