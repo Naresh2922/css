@@ -30,7 +30,10 @@ p {
 .sky{
   display: inline-block;
   width: 100%;
-
+}
+.earth{
+  dispay: inline-block;
+  width: 100%;
 }
 
 /**************************topcontainer***************************/
